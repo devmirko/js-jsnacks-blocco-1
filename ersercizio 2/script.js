@@ -11,10 +11,11 @@ console.log(array);
 for (let i = 0; i < 20; i++){
     const numero = array;
     if (numero[i] % 2 == 0) {
-      document.getElementById("red").innerHTML += numero[i];
+      document.getElementById("red").innerHTML += `<div class="text">${numero[i]}</div>`;
     }
-     else {
-      document.getElementById("green").innerHTML += numero[i];
+  
+    else {
+      document.getElementById("green").innerHTML += `<div class="text">${numero[i]}</div>`;
   };
 
 

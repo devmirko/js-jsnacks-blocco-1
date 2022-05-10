@@ -1,8 +1,14 @@
 #red{
     background-color: red;
-    height: 200px;
+   
 }
 
 #green{
     background-color: green;
 }
+
+.text{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+ }
